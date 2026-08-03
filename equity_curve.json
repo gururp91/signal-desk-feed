@@ -1,0 +1,194 @@
+{
+  "as_of": "2026-08-03",
+  "hold_days": 15,
+  "top_n": 5,
+  "cost_pct": 0.1,
+  "months": 6,
+  "points": [
+    {
+      "date": "2026-02-03",
+      "strategy": 100.0,
+      "qqq": 100.0
+    },
+    {
+      "date": "2026-02-25",
+      "strategy": 102.387,
+      "qqq": 100.0259
+    },
+    {
+      "date": "2026-03-18",
+      "strategy": 96.703,
+      "qqq": 96.4932
+    },
+    {
+      "date": "2026-04-09",
+      "strategy": 94.2845,
+      "qqq": 99.0981
+    },
+    {
+      "date": "2026-04-30",
+      "strategy": 98.8107,
+      "qqq": 108.4445
+    },
+    {
+      "date": "2026-05-21",
+      "strategy": 97.7193,
+      "qqq": 116.0402
+    },
+    {
+      "date": "2026-06-11",
+      "strategy": 98.1199,
+      "qqq": 116.4641
+    },
+    {
+      "date": "2026-07-06",
+      "strategy": 93.3735,
+      "qqq": 117.5188
+    },
+    {
+      "date": "2026-07-27",
+      "strategy": 91.7789,
+      "qqq": 110.9016
+    }
+  ],
+  "cycles": [
+    {
+      "start": "2026-02-03",
+      "end": "2026-02-25",
+      "tickers": [
+        "AEP",
+        "AMDL",
+        "AMGN",
+        "ATOM",
+        "BGC"
+      ],
+      "n": 5,
+      "strategy_return": 2.39,
+      "qqq_return": 0.03,
+      "alpha": 2.36,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-02-25",
+      "end": "2026-03-18",
+      "tickers": [
+        "AMDD",
+        "ABEO",
+        "ABVX",
+        "CMPS",
+        "COO"
+      ],
+      "n": 5,
+      "strategy_return": -5.55,
+      "qqq_return": -3.53,
+      "alpha": -2.02,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-03-18",
+      "end": "2026-04-09",
+      "tickers": [
+        "ANNX",
+        "NVTS",
+        "VSNT",
+        "AEVA",
+        "IALT"
+      ],
+      "n": 5,
+      "strategy_return": -2.5,
+      "qqq_return": 2.7,
+      "alpha": -5.2,
+      "regime": "HIGH_FEAR"
+    },
+    {
+      "start": "2026-04-09",
+      "end": "2026-04-30",
+      "tickers": [
+        "BRZE",
+        "ABSI",
+        "APXT",
+        "AXGN",
+        "BLLN"
+      ],
+      "n": 5,
+      "strategy_return": 4.8,
+      "qqq_return": 9.43,
+      "alpha": -4.63,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-04-30",
+      "end": "2026-05-21",
+      "tickers": [
+        "FWRD",
+        "MSFL",
+        "MSFU",
+        "AEP",
+        "APXT"
+      ],
+      "n": 5,
+      "strategy_return": -1.1,
+      "qqq_return": 7.0,
+      "alpha": -8.11,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-05-21",
+      "end": "2026-06-11",
+      "tickers": [
+        "BHF",
+        "CBSH",
+        "ECHO",
+        "FTXH",
+        "LNT"
+      ],
+      "n": 5,
+      "strategy_return": 0.41,
+      "qqq_return": 0.37,
+      "alpha": 0.04,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-06-11",
+      "end": "2026-07-06",
+      "tickers": [
+        "APPN",
+        "ARCC",
+        "AXON",
+        "BXBL",
+        "EMB"
+      ],
+      "n": 5,
+      "strategy_return": -4.84,
+      "qqq_return": 0.91,
+      "alpha": -5.74,
+      "regime": "MODERATE"
+    },
+    {
+      "start": "2026-07-06",
+      "end": "2026-07-27",
+      "tickers": [
+        "CSWC",
+        "EXC",
+        "FTHI",
+        "GBDC",
+        "OUST"
+      ],
+      "n": 5,
+      "strategy_return": -1.71,
+      "qqq_return": -5.63,
+      "alpha": 3.92,
+      "regime": "MODERATE"
+    }
+  ],
+  "summary": {
+    "strategy_total_pct": -8.22,
+    "qqq_total_pct": 10.9,
+    "beat_qqq": false,
+    "avg_alpha_pct": -2.42,
+    "n_cycles": 8,
+    "cycles_with_picks": 8,
+    "prefer_qqq": true
+  },
+  "disclaimer": "Yatırım tavsiyesi değildir. Maliyet varsayımlı reconstruction."
+}
