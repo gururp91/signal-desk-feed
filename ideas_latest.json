@@ -1,7 +1,7 @@
 {
   "as_of": "2026-08-03",
   "hold_plan_days": 15,
-  "top_n": 5,
+  "top_n": 3,
   "market": {
     "vix": null,
     "regime": "MODERATE",
@@ -9,6 +9,6 @@
     "position_scale": 0.5
   },
   "ideas": [],
-  "disclaimer": "Yatırım tavsiyesi değildir. Liste sadece BUY; SELL yalnızca satın aldığın pozisyonlar için app'te filtrelenir.",
-  "exits": []
+  "exits": [],
+  "disclaimer": "Yatırım tavsiyesi değildir. Liste sadece BUY; SELL yalnızca satın aldığın pozisyonlar için app'te filtrelenir. Bugün BUY_NOW yok."
 }
