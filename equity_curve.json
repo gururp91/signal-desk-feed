@@ -1,194 +1,166 @@
 {
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-04",
   "hold_days": 15,
-  "top_n": 5,
+  "top_n": 3,
   "cost_pct": 0.1,
   "months": 6,
+  "mode": "buy_now_only",
+  "idle_mode": "qqq",
+  "min_conviction": 60.0,
   "points": [
     {
-      "date": "2026-02-03",
+      "date": "2026-02-04",
       "strategy": 100.0,
       "qqq": 100.0
     },
     {
-      "date": "2026-02-25",
-      "strategy": 102.387,
-      "qqq": 100.0259
+      "date": "2026-02-26",
+      "strategy": 100.5762,
+      "qqq": 100.5762
     },
     {
-      "date": "2026-03-18",
-      "strategy": 96.703,
-      "qqq": 96.4932
+      "date": "2026-03-19",
+      "strategy": 97.8985,
+      "qqq": 97.8985
     },
     {
-      "date": "2026-04-09",
-      "strategy": 94.2845,
-      "qqq": 99.0981
+      "date": "2026-04-10",
+      "strategy": 101.0055,
+      "qqq": 101.0055
     },
     {
-      "date": "2026-04-30",
-      "strategy": 98.8107,
-      "qqq": 108.4445
+      "date": "2026-05-01",
+      "strategy": 111.4321,
+      "qqq": 111.4321
     },
     {
-      "date": "2026-05-21",
-      "strategy": 97.7193,
-      "qqq": 116.0402
+      "date": "2026-05-22",
+      "strategy": 118.6042,
+      "qqq": 118.6042
     },
     {
-      "date": "2026-06-11",
-      "strategy": 98.1199,
-      "qqq": 116.4641
+      "date": "2026-06-12",
+      "strategy": 119.2323,
+      "qqq": 119.2323
     },
     {
-      "date": "2026-07-06",
-      "strategy": 93.3735,
-      "qqq": 117.5188
+      "date": "2026-07-07",
+      "strategy": 117.3925,
+      "qqq": 117.3925
     },
     {
-      "date": "2026-07-27",
-      "strategy": 91.7789,
-      "qqq": 110.9016
+      "date": "2026-07-28",
+      "strategy": 111.7763,
+      "qqq": 111.7763
     }
   ],
   "cycles": [
     {
-      "start": "2026-02-03",
-      "end": "2026-02-25",
-      "tickers": [
-        "AEP",
-        "AMDL",
-        "AMGN",
-        "ATOM",
-        "BGC"
-      ],
-      "n": 5,
-      "strategy_return": 2.39,
-      "qqq_return": 0.03,
-      "alpha": 2.36,
-      "regime": "MODERATE"
+      "start": "2026-02-04",
+      "end": "2026-02-26",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:qqq_bear",
+      "strategy_return": 0.58,
+      "qqq_return": 0.58,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": false
     },
     {
-      "start": "2026-02-25",
-      "end": "2026-03-18",
-      "tickers": [
-        "AMDD",
-        "ABEO",
-        "ABVX",
-        "CMPS",
-        "COO"
-      ],
-      "n": 5,
-      "strategy_return": -5.55,
-      "qqq_return": -3.53,
-      "alpha": -2.02,
-      "regime": "MODERATE"
+      "start": "2026-02-26",
+      "end": "2026-03-19",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:qqq_bear",
+      "strategy_return": -2.66,
+      "qqq_return": -2.66,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": false
     },
     {
-      "start": "2026-03-18",
-      "end": "2026-04-09",
-      "tickers": [
-        "ANNX",
-        "NVTS",
-        "VSNT",
-        "AEVA",
-        "IALT"
-      ],
-      "n": 5,
-      "strategy_return": -2.5,
-      "qqq_return": 2.7,
-      "alpha": -5.2,
-      "regime": "HIGH_FEAR"
+      "start": "2026-03-19",
+      "end": "2026-04-10",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:qqq_bear",
+      "strategy_return": 3.17,
+      "qqq_return": 3.17,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": false
     },
     {
-      "start": "2026-04-09",
-      "end": "2026-04-30",
-      "tickers": [
-        "BRZE",
-        "ABSI",
-        "APXT",
-        "AXGN",
-        "BLLN"
-      ],
-      "n": 5,
-      "strategy_return": 4.8,
-      "qqq_return": 9.43,
-      "alpha": -4.63,
-      "regime": "MODERATE"
+      "start": "2026-04-10",
+      "end": "2026-05-01",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:no_picks",
+      "strategy_return": 10.32,
+      "qqq_return": 10.32,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": true
     },
     {
-      "start": "2026-04-30",
-      "end": "2026-05-21",
-      "tickers": [
-        "FWRD",
-        "MSFL",
-        "MSFU",
-        "AEP",
-        "APXT"
-      ],
-      "n": 5,
-      "strategy_return": -1.1,
-      "qqq_return": 7.0,
-      "alpha": -8.11,
-      "regime": "MODERATE"
+      "start": "2026-05-01",
+      "end": "2026-05-22",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:no_picks",
+      "strategy_return": 6.44,
+      "qqq_return": 6.44,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": true
     },
     {
-      "start": "2026-05-21",
-      "end": "2026-06-11",
-      "tickers": [
-        "BHF",
-        "CBSH",
-        "ECHO",
-        "FTXH",
-        "LNT"
-      ],
-      "n": 5,
-      "strategy_return": 0.41,
-      "qqq_return": 0.37,
-      "alpha": 0.04,
-      "regime": "MODERATE"
+      "start": "2026-05-22",
+      "end": "2026-06-12",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:no_picks",
+      "strategy_return": 0.53,
+      "qqq_return": 0.53,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": true
     },
     {
-      "start": "2026-06-11",
-      "end": "2026-07-06",
-      "tickers": [
-        "APPN",
-        "ARCC",
-        "AXON",
-        "BXBL",
-        "EMB"
-      ],
-      "n": 5,
-      "strategy_return": -4.84,
-      "qqq_return": 0.91,
-      "alpha": -5.74,
-      "regime": "MODERATE"
+      "start": "2026-06-12",
+      "end": "2026-07-07",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:no_picks",
+      "strategy_return": -1.54,
+      "qqq_return": -1.54,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": true
     },
     {
-      "start": "2026-07-06",
-      "end": "2026-07-27",
-      "tickers": [
-        "CSWC",
-        "EXC",
-        "FTHI",
-        "GBDC",
-        "OUST"
-      ],
-      "n": 5,
-      "strategy_return": -1.71,
-      "qqq_return": -5.63,
-      "alpha": 3.92,
-      "regime": "MODERATE"
+      "start": "2026-07-07",
+      "end": "2026-07-28",
+      "tickers": [],
+      "n": 0,
+      "mode": "idle_qqq:no_picks",
+      "strategy_return": -4.78,
+      "qqq_return": -4.78,
+      "alpha": 0.0,
+      "regime": "MODERATE",
+      "qqq_bullish": true
     }
   ],
   "summary": {
-    "strategy_total_pct": -8.22,
-    "qqq_total_pct": 10.9,
+    "strategy_total_pct": 11.78,
+    "qqq_total_pct": 11.78,
     "beat_qqq": false,
-    "avg_alpha_pct": -2.42,
+    "prefer_qqq": true,
+    "avg_alpha_pct": 0.0,
     "n_cycles": 8,
-    "cycles_with_picks": 8,
-    "prefer_qqq": true
+    "cycles_with_picks": 0,
+    "cycles_idle": 8
   },
-  "disclaimer": "Yatırım tavsiyesi değildir. Maliyet varsayımlı reconstruction."
+  "disclaimer": "Yatırım tavsiyesi değildir. Sıkı BUY_NOW + RS momentum yedek; fikir yoksa idle=qqq."
 }
