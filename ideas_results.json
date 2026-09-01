@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-08-31",
-  "n_closed": 15,
-  "n_open": 24,
+  "as_of": "2026-09-01",
+  "n_closed": 16,
+  "n_open": 26,
   "summary": {
-    "win_rate_pct": 46.7,
-    "beat_qqq_pct": 46.7,
-    "avg_return_pct": 1.26,
-    "avg_qqq_pct": -0.2,
-    "avg_alpha_pct": 1.47
+    "win_rate_pct": 43.8,
+    "beat_qqq_pct": 43.8,
+    "avg_return_pct": 0.78,
+    "avg_qqq_pct": -0.17,
+    "avg_alpha_pct": 0.95
   },
   "ideas": [
     {
@@ -36,7 +36,7 @@
       "alpha_pct": -7.08,
       "beat_qqq": false,
       "days_held": 1,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-04",
@@ -64,7 +64,7 @@
       "alpha_pct": 16.98,
       "beat_qqq": true,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-04",
@@ -92,7 +92,7 @@
       "alpha_pct": -7.1,
       "beat_qqq": false,
       "days_held": 1,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-05",
@@ -120,7 +120,7 @@
       "alpha_pct": -5.64,
       "beat_qqq": false,
       "days_held": 1,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-05",
@@ -148,7 +148,7 @@
       "alpha_pct": 4.72,
       "beat_qqq": true,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-05",
@@ -176,7 +176,7 @@
       "alpha_pct": -6.51,
       "beat_qqq": false,
       "days_held": 3,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-06",
@@ -204,7 +204,7 @@
       "alpha_pct": 3.05,
       "beat_qqq": true,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-06",
@@ -232,7 +232,7 @@
       "alpha_pct": 4.38,
       "beat_qqq": true,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-06",
@@ -260,7 +260,7 @@
       "alpha_pct": -7.18,
       "beat_qqq": false,
       "days_held": 1,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-07",
@@ -288,7 +288,7 @@
       "alpha_pct": 18.29,
       "beat_qqq": true,
       "days_held": 1,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-07",
@@ -316,7 +316,7 @@
       "alpha_pct": -6.1,
       "beat_qqq": false,
       "days_held": 3,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-07",
@@ -344,7 +344,7 @@
       "alpha_pct": -5.04,
       "beat_qqq": false,
       "days_held": 8,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-10",
@@ -372,7 +372,7 @@
       "alpha_pct": 16.75,
       "beat_qqq": true,
       "days_held": 5,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-10",
@@ -393,14 +393,14 @@
       "regime": "MODERATE",
       "qqq_bullish": "TRUE",
       "status": "TIME",
-      "exit_price": 53.36,
+      "exit_price": 53.31,
       "exit_reason": "TIME",
-      "return_pct": 1.81,
-      "qqq_return_pct": -0.89,
-      "alpha_pct": 2.7,
+      "return_pct": 1.72,
+      "qqq_return_pct": -0.57,
+      "alpha_pct": 2.29,
       "beat_qqq": true,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
     },
     {
       "date": "2026-08-10",
@@ -421,14 +421,42 @@
       "regime": "MODERATE",
       "qqq_bullish": "TRUE",
       "status": "TIME",
-      "exit_price": 23.53,
+      "exit_price": 23.45,
       "exit_reason": "TIME",
-      "return_pct": -1.09,
-      "qqq_return_pct": -0.89,
-      "alpha_pct": -0.21,
+      "return_pct": -1.43,
+      "qqq_return_pct": -0.57,
+      "alpha_pct": -0.86,
       "beat_qqq": false,
       "days_held": 15,
-      "evaluated_at": "2026-08-31"
+      "evaluated_at": "2026-09-01"
+    },
+    {
+      "date": "2026-08-11",
+      "rank": 1,
+      "ticker": "TTWO",
+      "company_name": "Take-Two Interactive Software, Inc.",
+      "action": "BUY_NOW",
+      "conviction": 105.35,
+      "score": 8.0,
+      "entry_price": 253.57,
+      "stop_loss": 238.36,
+      "target": 277.78,
+      "rr": 1.59,
+      "hold_plan_days": 15,
+      "max_hold_days": 45,
+      "thesis": "Trend yukari, RSI 60.5, hacim oranı 1.80, R/R 1.6x.",
+      "vix": 15.54,
+      "regime": "MODERATE",
+      "qqq_bullish": "TRUE",
+      "status": "STOPPED",
+      "exit_price": 238.36,
+      "exit_reason": "STOP_LOSS",
+      "return_pct": -6.0,
+      "qqq_return_pct": -0.33,
+      "alpha_pct": -5.67,
+      "beat_qqq": false,
+      "days_held": 6,
+      "evaluated_at": "2026-09-01"
     }
   ],
   "disclaimer": "Yatırım tavsiyesi değildir. Geçmiş performans geleceği garanti etmez."
